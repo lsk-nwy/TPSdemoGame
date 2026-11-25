@@ -1,0 +1,63 @@
+# Unreal Engine project .gitignore
+# Based on Epic's recommended template + github/gitignore UnrealEngine.gitignore
+
+# Engine-generated build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+Plugins/*/DerivedDataCache/
+
+# Visual Studio / Rider / VS Code user state
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.psess
+*.vsp
+*.vspx
+*.log
+
+# Generated solution / project files (regenerated from the .uproject)
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Compiled binaries / debug symbols
+*.dll
+*.exe
+*.lib
+*.pdb
+*.obj
+*.o
+*.so
+*.dylib
+*.a
+
+# Compiled asset data
+*_BuiltData.uasset
+
+# Agent runtime scaffolding (multica) - not part of the UE template
+.dsh/
+.multica/
+AGENTS.md
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local IDE/upgrade artifacts
+UpgradeLog.htm
+UpgradeLog*.xml
